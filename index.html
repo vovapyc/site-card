@@ -18,7 +18,16 @@
     <!-- Navbar -->
     <nav class="navbar navbar-default navbar-static-top text-uppercase navbar-fixed-top" role="navigation">
       <div class="container">
-        <div class="collapse navbar-collapse">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">News-site</a>
+        </div>
+        <div class="collapse navbar-collapse" id="nav-collapse">
           <a class="navbar-brand" href="#">Pytsyuk Volodumur</a>
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#">Home</a></li>
@@ -44,11 +53,12 @@
     </div>
 
     <div class="works">
-      <div class="container text-uppercase text-center">
+      <div class="container text-center">
         <div class="row">
-          <div class="col-md-6">
-            <h1>Works</h1>
-            <h4>My works</h4>
+          <div class="col-md-4">
+            <h1 class="text-uppercase">Works</h1>
+            <h4>You can see screenshots and information about my finished projects.</h4>
+            <a href="#" class="btn">See my works</a>
           </div>
         </div>
       </div>
