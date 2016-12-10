@@ -159,7 +159,20 @@ body {
 }
 
 #winner {
-  background: #191d32;
+  background: #33658a;
+}
+
+#more-projects {
+  background: #d72638;
+  color: #fff;
+}
+
+#more-projects a {
+  color: #fff;
+}
+
+#more-projects a:hover {
+  color: #fff;
 }
 
 .vertical-center {
