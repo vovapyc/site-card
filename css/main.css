@@ -146,8 +146,8 @@ body {
 }
 
 .project img {
-  height: 400px;
-  width: auto;
+  width: 60%;
+  height: auto;
 }
 
 #lostfilmbot {
