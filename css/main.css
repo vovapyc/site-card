@@ -12,7 +12,7 @@ h1 {
 
 h4 {
   font-family: 'Varela Round', sans-serif;
-  line-height: 150%;
+  line-height: 170%;
 }
 
 a {
@@ -131,6 +131,16 @@ body {
   color: #fff;
 }
 
+.works-text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.works img {
+  width: 100%;
+  height: auto;
+}
+
 .vertical-center {
   text-align: center;
   position: absolute;
@@ -141,7 +151,7 @@ body {
 }
 
 #bgVideo{
-  position: absolute;
+  position: fixed;
   z-index: -100;
   right: 0;
   bottom: 0;
