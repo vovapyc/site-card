@@ -209,6 +209,34 @@ body {
   color: #c0392b;
 }
 
+.contacts {
+  background: #464646;
+}
+
+.contacts a {
+  color: #fff;
+}
+
+.contacts a:hover, a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.socialButt img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  padding: 10px;
+  border: 2px solid #FFF;
+  margin: 5px;
+  transition: 0.2s;
+}
+
+.socialButt:hover img {
+  border: 5px solid #FFF;
+  transition: 0.2s;
+}
+
 .footer {
   text-align: center;
   background: #332925;
